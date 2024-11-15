@@ -1,8 +1,15 @@
-import ListGroup from "./components/ListGroup";
+import Alert from "./components/Alert";
+import Button from "./components/Button";
 
 function App() {
-    let items = ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix"];
-    return <div><ListGroup items={items} heading="Cities"/></div>;
+  return (
+    <div>
+      <Alert>
+        Hello <span>World</span>
+      </Alert>
+      <Button>My Button</Button>
+    </div>
+  );
 }
 
 export default App;
